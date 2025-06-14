@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahad Bhati - Electronics Engineer specializing in Embedded Systems and IoT Development">
+    <meta name="keywords" content="Electronics Engineer, Embedded Systems, IoT, ESP32, PCB Design, Arduino">
+    <meta name="author" content="Ahad Bhati">
+    
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Ahad Bhati | Electronics Engineer">
+    <meta property="og:description" content="Electronics Engineer specializing in Embedded Systems and IoT Development">
+    <meta property="og:type" content="website">
+    
+    <title>Ahad Bhati | Electronics Engineer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="fixed-bg"></div>
+    <div class="grid-overlay"></div>
+    <canvas id="starfield" class="starfield"></canvas>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Ahad Bhati</span>
+                </h1>
+                
+                <p class="hero-subtitle">Electronics Engineer</p>
+                
+                <p class="hero-description">
+                    Building the future with <span class="text-blue">Embedded Systems</span> and <span class="text-purple">IoT</span>. 
+                    From smart hardware to intelligent edge computing.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button onclick="scrollToSection('projects')" class="btn btn-primary">
+                        <i data-lucide="cpu"></i>
+                        View My Projects
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    
+                    <a href="mailto:ahadbhati01@gmail.com" class="btn btn-secondary">
+                        <i data-lucide="zap"></i>
+                        Get In Touch
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/AhadBhati" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i data-lucide="github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/ahadbhati" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i data-lucide="linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:ahadbhati01@gmail.com" class="social-link">
+                        <i data-lucide="mail"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-glow"></div>
+                        <div class="card-content">
+                            <div class="card-bg"></div>
+                            <div class="card-pattern"></div>
+                            
+                            <div class="card-text">
+                                <p class="fade-in">
+                                    I'm <span class="text-white font-semibold">Ahad Bhati</span>, an Electronics and Telecommunication Engineer with a passion for creating intelligent systems that bridge the physical and digital worlds.
+                                </p>
+                                
+                                <p class="fade-in text-gray" style="animation-delay: 0.2s;">
+                                    From building sensor-driven CanSats to designing custom PCBs, I specialize in embedded systems that solve real-world challenges. My recent work includes smart glasses powered by ESP32, environmental monitoring devices, and AI-integrated edge systems.
+                                </p>
+                                
+                                <div class="quote fade-in" style="animation-delay: 0.4s;">
+                                    <div class="quote-line"></div>
+                                    <p class="quote-text">"Engineering the future, one circuit at a time."</p>
+                                </div>
+                            </div>
+                            
+                            <div class="floating-dots">
+                                <div class="dot dot-1"></div>
+                                <div class="dot dot-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-section">
+                        <div class="skills-header">
+                            <h3 class="skills-title">
+                                <span class="skills-icon">
+                                    <i data-lucide="cpu"></i>
+                                </span>
+                                Core Expertise
+                            </h3>
+                            
+                            <div class="skills-grid">
+                                <div class="skill-item" style="animation-delay: 0.6s;">
+                                    <div class="skill-icon skill-blue">
+                                        <i data-lucide="cpu"></i>
+                                    </div>
+                                    <span>Embedded Systems</span>
+                                </div>
+                                <div class="skill-item" style="animation-delay: 0.7s;">
+                                    <div class="skill-icon skill-green">
+                                        <i data-lucide="zap"></i>
+                                    </div>
+                                    <span>IoT Development</span>
+                                </div>
+                                <div class="skill-item" style="animation-delay: 0.8s;">
+                                    <div class="skill-icon skill-purple">
+                                        <i data-lucide="layers"></i>
+                                    </div>
+                                    <span>PCB Design</span>
+                                </div>
+                                <div class="skill-item" style="animation-delay: 0.9s;">
+                                    <div class="skill-icon skill-orange">
+                                        <i data-lucide="sparkles"></i>
+                                    </div>
+                                    <span>ESP32/Arduino</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="additional-skills">
+                            <h4 class="additional-title">Additional Technologies</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag" style="animation-delay: 1.0s;">Sensor Integration</span>
+                                <span class="tech-tag" style="animation-delay: 1.1s;">AI Edge Computing</span>
+                                <span class="tech-tag" style="animation-delay: 1.2s;">Wireless Communication</span>
+                                <span class="tech-tag" style="animation-delay: 1.3s;">Real-time Systems</span>
+                            </div>
+                        </div>
+
+                        <div class="cta-link">
+                            <a href="#projects" class="explore-link">
+                                <span>Explore my projects</span>
+                                <i data-lucide="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="section-description">
+                        Explore my hardware-focused projects spanning IoT, embedded systems, and edge computing
+                    </p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <i data-lucide="x"></i>
+            </button>
+            <div id="modalBody">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
