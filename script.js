@@ -14,7 +14,7 @@ const projects = [
         title: 'Gesture to Speech Gloves',
         description: 'Smart gloves that convert hand gestures into speech, enabling communication for the hearing impaired.',
         longDescription: 'Revolutionary wearable technology that translates sign language gestures into audible speech in real-time. The gloves are equipped with flex sensors, accelerometers, and gyroscopes to capture precise hand movements and finger positions. Using machine learning algorithms, the system recognizes various sign language gestures and converts them to corresponding words or phrases through a built-in speaker. The project includes a mobile app for customization and learning new gestures. This assistive technology aims to bridge communication gaps and promote inclusivity for the deaf and hard-of-hearing community.',
-        githubUrl: 'https://github.com/ahadbhati/gesture-speech-gloves',
+        githubUrl: 'https://github.com/AhadBhati1/Gesture_speech_gloves',
         imageUrl: 'https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg',
         icon: 'hand'
     },
